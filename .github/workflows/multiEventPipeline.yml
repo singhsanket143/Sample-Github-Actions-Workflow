@@ -9,6 +9,7 @@ on:
             - master 
         types:
             - closed
+            - opened
     workflow_dispatch: 
     
 
