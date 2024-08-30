@@ -7,6 +7,7 @@ on:
     pull_request: # Event: Whenever a pull request is made to the repository
         branches:
             - master 
+    workflow_dispatch: 
 
 jobs:
     on-push: # Job 1
